@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#navigation{
+    justify-content: space-evenly;
+    align-items:center;
+    padding-left: 75%;
+    position: absolute;
+    right: 70%;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background-color:white;   
+}
+#navigation h5{
+    font-size: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#zero{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: salmon;
+}
+#ankush{
+    
+    position: absolute;
+    left: 500px;
+    top: 50px;
+    width: 60%;
+    height: 80%;
+    
+}
+.ank{
+    position: absolute;
+    width: 60%;
+    height: 500px;
+    background: url(_.png);
+    background-size: cover;
+}
+#one{
+    width: 60%;
+    height: 100%;
+    background-color:white;
+}
+#small{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    left:99px;
+    top: 10%;
+}
+#small h5{
+    font-size: 13px; 
+    font-weight: 50;
+    color:rgb(39, 180, 39);
+}
+#small h2{
+    font-weight: 500;
+    font-size: 35px;
+}
+#small h4{
+    font-size: 15px;
+}
+#small p{
+    font-weight: 500;
+    font-size: 12px;
+}
+.container{
+    position: absolute;
+    left: 99px;
+    top: 45%;
+}
+.btn button{
+    width: 130px;
+    height: 33px;
+    border-radius: 5px;
+    border-color: green;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+#flex{
+    position: absolute;
+    left: 99px;
+    top: 55%;
+}
+#flex h2{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+}
+.box{
+    width: 370px;
+    height: 30%;
+    justify-content: space-between;
+    display: flex;
+    position: absolute;
+    left: 99px;
+    top: 62%; 
+   
+}
+.flex-box1{
+    border-radius: 10px;
+    width: 120px;
+    height: 150px;
+    background-image: url(https://images.unsplash.com/photo-1484885192048-9696607347da?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=334&q=80);
+    background-size: cover;
+    background-position: center;
+}
+.flex-box1 p{
+    font-weight: 100;
+   font-size: 15px;  
+   position: absolute;
+   left: 20px;
+   top: 115px;
+}
+.flex-box1 h4{
+    position: absolute;
+    left: 20px;
+    top: 130px;
+}
+.flex-box2{
+    border-radius: 10px;
+    border-width: 2px;
+    width: 120px;
+    height: 150px;
+    background-image: url(https://images.unsplash.com/photo-1525946549228-596740434648?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTR8fGhvdXNlJTIwcGxhbnR8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60);
+    background-size: cover;
+    background-position: right;
+}
+.flex-box2 p{
+    font-weight: 100;
+    font-size: 15px;
+    position: absolute;
+    left: 140px;
+    top: 115px;
+}
+.flex-box2 h4{
+    position: absolute;
+    left: 140px;
+    top: 130px;
+}
+.flex-box3{
+    border-radius: 10px;
+    width: 120px;
+    height: 150px;
+    background-image: url(https://images.unsplash.com/photo-1599009944474-5bc0ff20db85?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1534&q=80);
+    background-size: cover;
+}
+.flex-box3 p{
+    font-size: 15px;
+    font-weight: 100;
+    position: absolute;
+    top: 100px;
+    left: 72%;
+}
+.flex-box3 h4{
+    position: absolute;
+    left:72% ;
+    top: 130px;    
+}
+.arrow{
+    position: absolute;
+    left: 400px;
+    top: 70%;
+    bottom: auto;
+    align-self: center;
+    width: 50px;
+    height: 20px;
+}
+#two{
+    width: 45%;
+    height: 100%;
+    background-color:rgb(28, 112, 28);
+}
+.search{
+    padding-left:35%;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 40%;
+    height: 35px;
+    color: white;
+}
+.search i{
+    justify-content: space-between;
+    
+}
+#house{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    position: absolute;
+    left: 1000px;
+    top: 70%;
+    width: 350px;
+    height: 200px;
+}
+#li i{
+    position: absolute;
+    top: 28px;
+    left: 5px;
+    color: white;
+}
+#li h3{
+    font-size: 15px;
+    position: absolute;
+    left: 25px;
+    top: 20px;
+    color: white;
+}
+#li p{
+    font-size: 12px;
+    position: absolute;
+    left: 25px;
+    top: 37px;
+    color: #8CE895;
+}
+#water i{
+    position: absolute;
+    top: 35px;
+    left: 200px;
+    color: white;
+}
+#water h3{
+    font-size: 15px;
+    position: absolute;
+    top: 20px;
+    left: 220px;
+    color: white;
+}
+#water p{
+    font-size: 13px;
+    position: absolute;
+    top: 40px;
+    left: 220px;
+    color:#8CE895;
+}
+#grow i{
+    position: absolute;
+    top: 87px;
+    left: 5px;
+    color: white;
+}
+#grow h3{
+    font-size: 15px;
+    position: absolute;
+    top:75px;
+    left: 25px;
+    color: white;
+}
+#grow p{
+    font-size: 12px;
+    position: absolute;
+    top: 95px;
+    left:25px ;
+    color:#8CE895;
+}
+#mainten i{
+    position: absolute;
+    top: 87px;
+    left: 200px;
+    color: white;
+}
+#mainten h3{
+    font-size: 15px;
+    position: absolute;
+    top:75px;
+    left: 220px;
+    color: white;
+}
+#mainten p{
+    font-size: 12px;
+    position: absolute;
+    top: 95px;
+    left: 220px;
+    color:#8CE895;
+}
